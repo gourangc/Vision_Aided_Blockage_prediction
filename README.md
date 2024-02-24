@@ -8,4 +8,18 @@ This paper provides the first real-world evaluation of using visual (RGB camera)
 # Code Package Content 
 The scripts for generating the results of the ML solutions in the paper. This script adopts Scenarios 17-22 of DeepSense6G dataset.
 
-More details will be provided soon!
+
+# Image Enhancement
+For the image enhancement step, we adopt the MIRNet network as proposed in the paper by Zamir, Syed Waqas, et al., "Learning enriched features for fast image restoration and enhancement." (IEEE Transactions on Pattern Analysis and Machine Intelligence, vol. 45, no. 2, 2022, pp. 1934-1948). For further details and official implementation, please refer to the [MIRNet GitHub Repository](https://github.com/swz30/MIRNet).
+
+If you utilize this approach in your work, please ensure to cite the paper appropriately
+
+
+# License and Referencing
+This code package is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/). 
+If you in any way use this code for research that results in publications, please cite our original article:
+> Gouranga Charan and Ahmed Alkhateeb, "[Computer Vision Aided Blockage Prediction in Real-World Millimeter Wave Deployments](https://ieeexplore.ieee.org/abstract/document/10008524),", in 2022 IEEE Globecom Workshops (GC Wkshps), 2022, pp. 1711-1716.
+
+If you use the [DeepSense 6G dataset](www.deepsense6g.net), please also cite our dataset article:
+> A. Alkhateeb, G. Charan, T. Osman, A. Hredzak, and N. Srinivas, “DeepSense 6G: large-scale real-world multi-modal sensing and communication datasets,” to be available on arXiv, 2022. [Online]. Available: https://www.DeepSense6G.net
+
